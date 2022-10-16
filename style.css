@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+
+p{
+
+    font-family: "EB Garamond",sans-serif;
+
+
+
+
+}
+
+h1 {font-family: "EB Garamond", sans-serif;
+    font-style: bold;
+    text-align: center;
+
+
+}
+
+h2{font-family: "EB Garamond", sans-serif;
+    font-style: italic;
+    font-size: medium;
+
+
+}
+
+
+footer{
+
+    padding: 2rem;
+    background-color: rgb(59, 97, 114);
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+.navbar ul{
+
+
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+    align-items:center;
+    background-color: rgb(59, 97, 114);
+    list-style-type: none;
+    padding-bottom: 1rem;
+
+
+
+}
+
+
+
+
+.navbar-li {
+
+    list-style-type: none;
+
+    display: block;
+    background-color: aqua;
+    padding: 1 rem;
+    text-decoration: none;
+
+}
+
+
+
+.navbar a{
+
+    text-decoration: none;
+    color:white;
+
+
+}
+
+
+
+
+
+
+.navbar-logo{
+    font-family: "Cinzel Decorative",sans-serif;
+    flex:1;
+    font-size:1.5rem;
+    text-align: center;
+    padding: 1rem;
+    color: rgb(56, 159, 177);
+}
+
+
+
+.navbar-link
+
+{
+    font-family: "Cinzel Decorative";
+    width: 100%;
+    text-align:center;
+
+}
+
+
+
+.navbar-link-active
+
+{
+    font-family: "Cinzel Decorative";
+    width: 100%;
+    text-align:center;
+    text-shadow: 2px 2px 5px red;
+    background: radial-gradient(circle, rgba(252,70,107,1) 0%,  rgb(59, 97, 114) 29%);
+
+}
+
+
+
+
+
+.navbar-link:hover {
+
+    background: rgb(252,70,107);
+    background: radial-gradient(circle, rgba(252,70,107,1) 0%,  rgb(59, 97, 114) 29%);
+}
+    
+
+.navbar-link:hover a {
+
+    color:rgb(236, 114, 114)
+}
+
+
+.navbar-link:active{
+
+    color: brown;
+}
+
+
+.row{
+
+    display:flex;
+    flex-direction: column;
+}
+
+
+.column{
+
+    width:100%;
+    
+    padding:10px;
+    
+
+
+
+}
+
+
+
+
+.image-gallery{
+
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+
+}
+
+
+.image-gallery .column{
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+
+}
+
+.image-item img{
+
+    width: 100%;
+    
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+
+.description {
+
+    position:relative;
+    bottom: 90px;
+    left:26px;
+    font-size: 1rem;
+    z-index: 0;
+    color: aliceblue;
+
+}
+
+
+
+.centerimage {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+}
+  
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px){
+
+   .navbar ul{
+        
+
+    
+    flex-direction: row;
+
+
+}
+
+
+
+    .navbar a{
+
+    text-decoration: none;
+    color:white;
+
+
+}
+
+.navbar-logo{
+
+    flex:0.5;
+    font-size:1.5rem;
+    
+}
+   
+
+
+    .navbar-link
+
+{
+    
+    width: 15%;
+    text-align:center;
+    text-decoration: none;
+
+}
+
+
+.navbar-link-active
+
+{
+    font-family: "Cinzel Decorative";
+    width: 15%;
+    text-align:center;
+    text-shadow: 2px 2px 5px red;
+    background: radial-gradient(circle, rgba(252,70,107,1) 0%,  rgb(59, 97, 114) 29%);
+
+}
+
+
+
+
+
+
+
+
+
+
+.row{
+
+    
+    flex-direction: row;
+}
+
+.column{
+
+    
+    
+    padding:10px;
+    
+
+
+
+}
+
+.image-gallery{
+
+        flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
